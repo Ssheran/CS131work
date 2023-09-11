@@ -381,3 +381,66 @@ a
   377  git status
   378  ls
   379  history > cmds.log
+  380  vi counts.txt
+  381  git status
+  382  vi counts.txt
+  383  git status
+  384  git add cmds.log
+  385  git add counts.txt
+  386  git status
+  387  git remote add origin git@github.com:ssheran/CS131work.git
+  388  git commit -m "Worksheet2 complete"
+  389  git push --set-upstream origin master
+  390  git remote add origin git@github.com:Ssheran/CS131work.git
+  391  git push
+  392  git push -u origin master
+  393  git config --global user.email shervan.shahparnia@gmail.com
+  394  git remote remove origin
+  395  git status
+  396  cd
+  397  cd shervanf23
+  398  cd CS131
+  399  git pull
+  400  git pull origin master
+  401  git remote add origin git@github.com:Ssheran/CS131work.git
+  402  git pull origin master
+  403  ls
+  404  cd Worksheet2
+  405  git status
+  406  cd ~/.ssh
+  407  ls
+  408  cat sampleFile.txt
+  409  cd Worksheet1
+  410  ls
+  411  cd
+  412  cd ~/.ssh
+  413  ls
+  414  cd cs131work
+  415  ls
+  416  cd
+  417  ls
+  418  cd CS131
+  419  ls
+  420  CD Worksheet1
+  421  cd Worksheet1
+  422  ld
+  423  ls
+  424  cd CS131
+  425  ls
+  426  d
+  427  dc
+  428  cd
+  429  ls
+  430  cd CS131
+  431  cd Worksheet2
+  432  ls
+  433  cat cmds.log
+  434  ls
+  435  git init
+  436  git add counts.txt cmds.log
+  437  git commit -m "WS2"
+  438  git show commit-id--name-only
+  439  git commit_id --name-only
+  440  git commit --name-only
+  441  ls
+  442  history > cmds.log
