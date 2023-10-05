@@ -1,0 +1,802 @@
+    1  exit
+    2  ~$ passwd
+    3  passwd
+    4  ls
+    5  ls -al
+    6  python3
+    7  wget www.github.com
+    8  ls
+    9  cat index.html
+   10  cat
+   11  pwd
+   12  git init
+   13  git add index.html
+   14  git commit
+   15  git config --global user.email shervan.shahparnia@gmail.com
+   16  git commit
+   17  cd
+   18  pwd
+   19  mkdir
+   20  mkdir CS131
+   21  cd CS131
+   22  git init
+   23  cd
+   24  man -ls
+   25  man
+   26  ls
+   27  man
+   28  -ls
+   29  man 
+   30  man -f ls
+   31  man cd
+   32  ls ?.txt
+   33  logout
+   34  cd CS131
+   35  git init
+   36  ls
+   37  git status
+   38  git add .
+   39  git status
+   40  cd ~/.ssh && ssh-keygen
+   41  git config
+   42  git config --global ssheran "Shervan"
+   43  cd Worksheet1
+   44  pwd
+   45  git config --global shervan.shahparnia@gmail.com
+   46  git config --global ssheran
+   47  git config -global ssheran "Shervan Shahparnia"
+   48  git config --global ssheran "Shervan Shahparnia"
+   49  git config --global shervan.shahparnia@gmail.com
+   50  git config --global @ssheran
+   51  cd
+   52  cd CS131
+   53  git config --global shervan.shahparnia@gmail.com
+   54  git config --global "shervan.shahparnia@gmail.com"
+   55  git config --global user.name "ssheran"
+   56  cd ~/.ssh && ssh-keygen
+   57  mkdir ~/.ssh
+   58  cat id_rsa.pub
+   59  cd ~/.ssh && ssh-keygen
+   60  dc
+   61  cd CS131
+   62  cd ~/.ssh && ssh-keygen
+   63  cat id_rsa.pub
+   64  cd ~/.ssh && ssh-keygen
+   65  mkdir sampleDirectory
+   66  cd sampl
+   67  cd sample
+   68  cd sampleDirectory
+   69  cd
+   70  cd sampleProject/
+   71  touch sampleFile.txt
+   72  git init
+   73  git add
+   74  git add .
+   75  git status
+   76  git config --global user.email "shervan.shahparnia@gmail.com"
+   77  git config --global user.name "Ssheran"
+   78  cd ~/.ssh && ssh-keygen
+   79  cat ~/.ssh/id_rsa.pub
+   80  git config --list
+   81  cat id_rsa.pub
+   82  cd
+   83  cd ~/.ssh && ssh-keygen
+   84  cat id_rsa.pub
+   85  git remote add origin git@github.com:ssheran/CS131Repo.git
+   86  git commit -m "Message"
+   87  git push --set-upstream origin master
+   88  git remote add origin git@github.com:ssheran/CS131work.git
+   89  git commit -m
+   90  git commit
+   91  git push --set-upstream origin master
+   92  git remote add origin git@github.com:ssheran/CS131work.git
+   93  git remote remove origin
+   94  git status
+   95  git remote add origin git@github.com:ssheran/CS131work.git
+   96  git commit -m "Message"
+   97  git push --set-upstream origin master
+   98  CS131work
+   99  cd CS131work
+  100  CS131
+  101  cd CS131
+  102  history > cmds.log
+  103  git status
+  104  git add cmds.log
+  105  git status
+  106  git commit -m "History log I think"
+  107  git push origin master
+  108  git clone https://github.com/ssheran/cs131work.git
+  109  cd
+  110  rm -r sampleProject
+  111  ls
+  112  rm index.html.l
+  113  ls
+  114  rm -r sampleDirectory
+  115  ls
+  116  rm -r Worksheet1
+  117  ls
+  118  rm -r index.html
+  119  cd CS131
+  120  ls
+  121  rm shervan.txt
+  122  ls
+  123  cd
+  124  cd CS131
+  125  ls
+  126  git status
+  127  cd ~/.ssh
+  128  git pull
+  129  git status
+  130  cd
+  131  cd ..
+  132  ls
+  133  cd shervanf23
+  134  ls
+  135  cd CS131
+  136  ls
+  137  git pull
+  138  git pull origin master
+  139  git remote add origin git@github.com:Ssheran/CS131work.git
+  140  git pull origin master
+  141  ls
+  142  ls -la
+  143  ls
+  144  cd Worksheet1
+  145  ls
+  146  history > cmds.log
+  147  git status
+  148  git add cmds.log
+  149  git status
+  150  ls
+  151  git commit -m "history log"
+  152  git push origin master
+  153  ls
+  154  git status
+  155  git rm shervan.txt
+  156  cd 
+  157  cd CS131
+  158  ls
+  159  git rm .ssh
+  160  git rm /.ssh
+  161  git rm shervan.txt
+  162  ls
+  163  git status
+  164  git commit -m
+  165  git commit
+  166  cd CS131
+  167  git status
+  168  git push origin master
+  169  git commit -m "removed unnecessary file"
+  170  git push origin master
+  171  man mv
+  172  cd ~/Desktop
+  173  mkdir Worksheet1
+  174  cd Worksheet1/
+  175  rmdir Worksheet1
+  176  rmdir Worksheet1/
+  177  cd 
+  178  wget www.github.com
+  179  cd
+  180  ls
+  181  cd CS131
+  182  mkdir Worksheet1
+  183  cd Worksheet1
+  184  cd CS131
+  185  cd
+  186  cd CS131
+  187  cd C131/Worksheet1
+  188  ls
+  189  cd
+  190  cd Worksheet1
+  191  rmdir
+  192  rmdir Worksheet1
+  193  rmdir Worksheet1/
+  194  cd
+  195  cd CS131
+  196  git init
+  197  touch shervan.txt
+  198  ls
+  199  git status
+  200  git add shervan.txt
+  201  commit -m "test commit"
+  202  git commit "test commit"
+  203  git commit -m "test commit"
+  204  mkdir sampleProject
+  205  ls -ltr
+  206  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/spotify-2023.csv
+  207  cd ~/.ssh
+  208  rm Worksheet1/
+  209  ls
+  210  cd cs131work
+  211  ls
+  212  cd .ssh
+  213  cd ~/.shh
+  214  cd
+  215  cd ~/.ssh
+  216  ls
+  217  cd
+  218  ls
+  219  cd CS131
+  220  ls
+  221  cd
+  222  cd ~/.ssh
+  223  cd
+  224  ls
+  225  ls
+  226  rm index.html
+  227  rm sampleProject
+  228  rmdir sampleProject/
+  229  cd sampleProject
+  230  ls
+  231  rm sampleFile.txt
+  232  ls
+  233  cd
+  234  rmdir sampleProject
+  235  rm -r sampleProject
+  236  ls
+  237  cd cs131
+  238  cd CS131
+  239  ls
+  240  mkdir Worksheet2
+  241  ls
+  242  cd Worksheet2
+  243  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  244  ls
+  245  grep "United States" "Global Youtube Statistics.csv"  > count.txt
+  246  grep "United States" "Global YouTube Statistics.csv" > count.txt
+  247  grep "Music" "Global YouTube Statistics.csv" > count.txt
+  248  ls
+  249  nano count.txt
+  250  grep "Music" "Global YouTube Statistics.csv" >> count.txt
+  251  ls
+  252  nano count.txt
+  253  nano
+  254  nano count.txt
+  255  rm count.txt
+  256  ls
+  257  grep "United States" "Global YouTube Statistics.csv" > count.txt
+  258  grep "Music" "Global YouTube Statistics.csv" >>count.txt
+  259  ls
+  260  rm count.txt
+  261  grep "United States" "Global YouTube Statistics.csv" > counts.txt
+  262  grep "Music" "Global YouTube Statistics.csv" >>counts.txt
+  263  wc -l "Global YouTube Statistics.csv" >> counts.txt
+  264  wc -w "Global YouTube Statistics.csv" >> counts.txt
+  265  nano counts.txt
+  266  rm counts.txt
+  267  ls
+  268  nano Global YouTube Statistics.csv
+  269  ls
+  270  cd
+  271  ld
+  272  ls
+  273  cd CS131
+  274  ls
+  275  cd Worksheet2
+  276  git pull
+  277  ls
+  278  cd CS131
+  279  cd Worksheet2
+  280  ls
+  281  cat Global YouTube Statistics.csv
+  282  cat  "Global YouTube Statistics.csv"
+  283  grep "United States" "Global YouTube Statistics.csv" > counts.txt
+  284  awk -F ',' counts.txt8 == "Music"' "Global YouTube Statistics.csv" > music_records.csv
+  285  f
+  286  wc -l music_records.csv > counts.txt
+  287  wc -w music_records.csv >> counts.txt
+  288  a
+  289  cat counts.txt
+  290  nano "Global YouTube Statistics.csv"
+  291  wc -l music_records.csv > counts.txt
+  292  grep -P '^(?!.*\bmusic\b).*Music.*$' "Global YouTube Statistics.csv" > music_records.csv
+  293  cat music_records.csv
+  294  nano music_records.csv
+  295  wc -l music_records.csv > counts.txt
+  296  wc -w music_records.csv >> counts.txt
+  297  nano counts.txt
+  298  vi counts.txt
+  299  nano counts.txt
+  300  rm counts.txt
+  301  cat music_records.csv
+  302  grep -E '^(?:[^,]*,){4}Music,' "Global YouTube Statistics.csv" > music_records.csv
+  303  cat music_records.csv
+  304  ls
+  305  nano music_records.csv
+  306  grep -E '^(?:[^,]*,){4}Music,' "Global YouTube Statistics.csv" > music_records.csv
+  307  cat music_records.csv
+  308  cat "Global YouTube Statistics.csv"
+  309  grep -E '^([^,]*,){4}Music[^,]*$' "Global YouTube Statistics.csv" > music_records.txt
+  310  nano music_records.txt
+  311  cat music_records.txt
+  312  ls
+  313  rm music_records.txt
+  314  cat music_records.csv
+  315  rm music_records.csv
+  316  grep "Music" "Global YouTube Statistics.csv" > music.csv
+  317  cat music.csv
+  318  wc -l music.csv >> counts.txt
+  319  wc -w music.csv >> counts.txt
+  320  cat counts.txt
+  321  vi counts.txt
+  322  cat counts.txt
+  323  history > cmds.log
+  324  ls
+  325  git init
+  326  git status
+  327  git add cmds.log
+  328  git add counts.txt
+  329  git status
+  330  git commit -m "Finished worksheet2"
+  331  git push origin master
+  332  git push master
+  333  git push
+  334  cd ~/.ssh
+  335  git status
+  336  cd CS131
+  337  cd
+  338  ls
+  339  cd CS131
+  340  git pull
+  341  git remote add origin git@github.com:ssherva/CS131work.git
+  342  git commit
+  343  git status
+  344  cd Worksheet2
+  345  git status
+  346  git push --set-upstream origin master
+  347  cd
+  348  ls
+  349  cd CS131
+  350  ls
+  351  cd Worksheet1
+  352  ls
+  353  cd
+  354  cd CS131
+  355  cd Worksheet2
+  356  git init
+  357  git status
+  358  git add .
+  359  git status
+  360  cd
+  361  cd CS131
+  362  cd Worksheet2
+  363  ls
+  364  cat cmds.log
+  365  ls
+  366  cat counts.txt
+  367  git status
+  368  git restore --staged music.csv
+  369  git restore --staged Global YouTube Statistics.csv
+  370  git restore --staged " Global YouTube Statistics.csv"
+  371  git restore --staged "Global YouTube Statistics.csv"
+  372  git status
+  373  git add counts.txt
+  374  git add cmds.log
+  375  git status
+  376  git commit
+  377  git remote add origin git@github.com/ssheran/CS131work.git
+  378  git commit
+  379  git add
+  380  git statuis
+  381  git status
+  382  ls
+  383  history > cmds.log
+  384  vi counts.txt
+  385  git status
+  386  vi counts.txt
+  387  git status
+  388  git add cmds.log
+  389  git add counts.txt
+  390  git status
+  391  git remote add origin git@github.com:ssheran/CS131work.git
+  392  git commit -m "Worksheet2 complete"
+  393  git push --set-upstream origin master
+  394  git remote add origin git@github.com:Ssheran/CS131work.git
+  395  git push
+  396  git push -u origin master
+  397  git config --global user.email shervan.shahparnia@gmail.com
+  398  git remote remove origin
+  399  git status
+  400  cd
+  401  cd shervanf23
+  402  cd CS131
+  403  git pull
+  404  git pull origin master
+  405  git remote add origin git@github.com:Ssheran/CS131work.git
+  406  git pull origin master
+  407  ls
+  408  cd Worksheet2
+  409  git status
+  410  cd ~/.ssh
+  411  ls
+  412  cat sampleFile.txt
+  413  cd Worksheet1
+  414  ls
+  415  cd
+  416  cd ~/.ssh
+  417  ls
+  418  cd cs131work
+  419  ls
+  420  cd
+  421  ls
+  422  cd CS131
+  423  ls
+  424  CD Worksheet1
+  425  cd Worksheet1
+  426  ld
+  427  ls
+  428  cd CS131
+  429  ls
+  430  d
+  431  dc
+  432  cd
+  433  ls
+  434  cd CS131
+  435  cd Worksheet2
+  436  ls
+  437  cat cmds.log
+  438  ls
+  439  git init
+  440  git add counts.txt cmds.log
+  441  git commit -m "WS2"
+  442  git show commit-id--name-only
+  443  git commit_id --name-only
+  444  git commit --name-only
+  445  ls
+  446  history > cmds.log
+  447  git status
+  448  nano counts.txt
+  449  git status
+  450  git init
+  451  git add counts.txt
+  452  git add cmds.log
+  453  git status
+  454  git commit -m "WS 2"
+  455  git remote add origin git@github.com:Ssheran/CS131work.git
+  456  git push -u origin master
+  457  git push --help
+  458  git push -u origin master
+  459  git pull
+  460  git push -u origin master
+  461  [shervanf23@sjsu Worksheet2]$ git push -u origin master
+  462  To github.com:Ssheran/CS131work.git
+  463   ! [rejected]        master -> master (non-fast-forward)
+  464  error: failed to push some refs to 'github.com:Ssheran/CS131work.git'
+  465  hint: Updates were rejected because the tip of your current branch is behind
+  466  hint: its remote counterpart. Integrate the remote changes (e.g.
+  467  hint: 'git pull ...') before pushing again.
+  468  git pull origin master
+  469  git pull origin master --allow-unrelated-histories
+  470  git status
+  471  git push origin master
+  472  cd CS131
+  473  cd
+  474  ls
+  475  CD CS131
+  476  cd CS131
+  477  ls
+  478  cd Worksheet2
+  479  git init
+  480  git pull
+  481  git status
+  482  cd
+  483  cd CS131
+  484  git init
+  485  cd Worksheet2
+  486  git rm cmds.log
+  487  git rm counts.txt
+  488  git stauts
+  489  git status
+  490  git commit -m "removed redundancy"
+  491  git push origin master
+  492  git push git pull origin master --allow-unrelated-histories
+  493  git pull origin master --allow-unrelated-histories
+  494  git push origin master
+  495  git rm Worksheet2/
+  496  git rm -r Worksheet2/
+  497  git commit -m "removed unnecessary test folder"
+  498  git push origin master
+  499  git add Worksheet2/cmds.log
+  500  ls
+  501  cd Worksheet1
+  502  ls
+  503  rm Worksheet1
+  504  rmdir Worksheet1/
+  505  cd
+  506  ls
+  507  cd CS131
+  508  ls
+  509  cd Workshet2
+  510  cd Worksheet2
+  511  ls
+  512  grep "United States" "Global YouTube Statistics.csv" 
+  513  grep "Music" "Global YouTube Statistics.csv" > music_record.txt
+  514  wc -l music_record.txt > counts.txt
+  515  wc -w music_record.txt >> counts.txt
+  516  cat counts.txt
+  517  vi counts.txt
+  518  cat counts.txt
+  519  git status
+  520  ls
+  521  git add counts.txt
+  522  history > cmds.log
+  523  git add cmds.log
+  524  git status
+  525  cat cmds.log
+  526  git status
+  527  git commit -m "WS2"
+  528  git push origin master
+  529  cd
+  530  ls
+  531  cd CS131
+  532  cd
+  533  rmdir spotify-2023.csv
+  534  rm spotify-2023.csv
+  535  ls
+  536  cat index.html.1
+  537  ls
+  538  clear
+  539  cd CS131
+  540  ls
+  541  mkdir Worksheet3
+  542  cd Worksheet3
+  543  ls
+  544  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  545  ls
+  546  git pull
+  547  ls
+  548  grep -E 'United States|United Kingdom|India' YouTube2023.csv | sort -t, -k7,7nr > sorted_earnings.csv
+  549  grep "United States|United Kingdom|India" "Global YouTube Statistics.csv" | sort -t, -k7,7nr > task1.csv
+  550  cat task1.csv
+  551  nano task1.csv
+  552  ls
+  553  rm sorted_earnings.csv
+  554  rm task1.csv
+  555  grep "United States | United Kingdom | India" "Global YouTube Statistics.csv" > task1.csv
+  556  cat task1.csv
+  557  nano task1.csv
+  558  nano "Global YouTube Statistics.csv"
+  559  nano task1.csv
+  560  ls
+  561  rm task1.csv
+  562  grep "United States | United Kingdom | India" "Global YouTube Statistics.csv" > task1.txt
+  563  cat task1.txt
+  564  nano task1.txt
+  565  rm task1.txt
+  566  grep "United States|United Kingdom|India" "Global YouTube Statistics.csv" >> task1.txt
+  567  nano task1.txt
+  568  grep "United States" "Global YouTube Statistics.csv" >> task1.txt
+  569  nano task1.txt
+  570  rm task1.txt
+  571  grep "United States" "Global YouTube Statistics.csv" > USA.txt
+  572  nano USA.txt
+  573  grep "India" "Global YouTube Statistics.csv" > India.txt
+  574  grep "United Kingdom" "Global YouTube Statistics.csv" > UK.txt
+  575  nano India.txt
+  576  nano UK.txt
+  577  sort -t ',' -k16,16n USA.txt > sorted_USA.txt
+  578  ls
+  579  nano sorted_USA.txt
+  580  nano USA.txt
+  581  ls
+  582  rm sorted_USA.txt
+  583  sort -k16,16nr Global/YouTube/Statistics.csv >> highestMonthlyEarnerUSA.txt
+  584  sort -k16,16nr "Global YouTube Statistics.csv" >> highestMonthlyEarnerUSA.txt
+  585  nano highestMonthlyEarnerUSA.txt
+  586  sort -k16,16nr "USA.txt" >> highestMonthlyEarnerUSA.txt
+  587  sort -k16,16nr "USA.txt" > highestMonthlyEarnerUSA.txt
+  588  nano highestMonthlyEarnerUSA.txt
+  589  sort -k16,16nr "India.txt" > highestMonthlyEarnerIndia.txt
+  590  sort -k16,16nr "UK.txt" > highestMonthlyEarnerUK.txt
+  591  nano highestMonthlyEarnerIndia.txt
+  592  nano highestMonthlyEarnerUK.txt
+  593  ls
+  594  rm highestMonthlyEarnerIndia.txt
+  595  rm highestMonthlyEarnerUK.txt
+  596  rm highestMonthlyEarnerUSA.txt
+  597  ls
+  598  sort -k16,16nr "United States" 'Global YouTube Statistics.csv' > usaoutput.txt
+  599  sort -k16,16nr "USA.txt" > usaoutput.txt
+  600  nano usaoutput.txt
+  601  sort -k16,16nr "India.txt" > Indiaoutput.txt
+  602  sort -k16,16nr "UK.txt" > UKoutput.txt
+  603  nano UKoutput.txt
+  604  nano USAoutput.txt
+  605  ls
+  606  nano usaoutput.txt
+  607  nano UK.txt
+  608  nano UKoutput.txt
+  609  nano UK.txt
+  610  sort -k16 UK.txt > ukoutput2.txt
+  611  nano ukoutput2.txt
+  612  rm ukoutput2.txt
+  613  nano usaoutput.txt
+  614  nano UKoutput.txt
+  615  nano usaoutput.txt
+  616  rm usaoutput.txt
+  617  sort -k16 USA.txt > Usaoutput.txt
+  618  nano Usaoutput.txt
+  619  sort -k16 Usaoutput.txt >> Usaoutput.txt
+  620  nano Usaoutput.txt
+  621  sort -k16,16nr Usaoutput.txt > Usaoutput.txt
+  622  nano Usaoutput.txt
+  623  sort -k16,16nr USA.txt > Usaoutput.txt
+  624  nano Usaoutput.txt
+  625  sort -k16,16nr India.txt > Indiaoutput.txt
+  626  nano Indiaoutput.txt
+  627  ls
+  628  rm -a
+  629  rm -r
+  630  rm .
+  631  rm Indaoutput.txt
+  632  rm Indiaoutput.txt
+  633  rm India.txt
+  634  rm UKoutput.txt
+  635  rm UK.txt
+  636  rm Usaoutput.txt
+  637  rm USA.txt
+  638  ls
+  639  rm 'Global YouTube Statistics.csv'
+  640  ls
+  641  git pull
+  642  cd
+  643  git pull origin master
+  644  ls
+  645  cd Worksheet1
+  646  ls
+  647  cd
+  648  cd CS131
+  649  ls
+  650  cd Worksheet3
+  651  ls
+  652  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  653  nano 'Global YouTube Statistics.csv'
+  654  grep "United States" 'Global YouTube Statistics.csv' >> usa.txt
+  655  nano usa.txt
+  656  grep "India" 'Global YouTube Statistics.csv' >> india.txt
+  657  grep "United Kingdom" 'Global YouTube Statistics.csv' >> uk.txt
+  658  nano india.txt
+  659  nano uk.txt
+  660  man sort
+  661  nano uk.txt
+  662  sort -k16,nr "uk.txt" >> uk2.txt
+  663  sort -t ',' -k16, 16nr "uk.txt" >> uk2.txt
+  664  sort -t ',' -k16,16nr "uk.txt" >> uk2.txt
+  665  nano uk2.txt
+  666  sort -t ',' -k16,16nr "usa.txt" >> usa2.txt
+  667  nano usa2.txt
+  668  sort -t ',' -k16,16nr "india.txt" >> india2.txt
+  669  nano india.txt
+  670  nano india2.txt
+  671  sort -t ',' -k16,16nr "uk.txt" >> uk2.txt
+  672  nano uk2.txt
+  673  head -n 1 "india.txt"
+  674  head -n 1 "india.txt" >> task1.txt
+  675  head -n 1 "usa.txt" >> task1.txt
+  676  rm task1.txt
+  677  head -n 1 "usa2.txt" >> task1.txt
+  678  head -n 1 "india2.txt" >> task1.txt
+  679  head -n 1 "uk2.txt" >> task1.txt
+  680  nano task1.txt
+  681  ls
+  682  grep "Sports" 'Global YouTube Statistics.csv' >> sports.txt
+  683  grep "Education" 'Global YouTube Statistics.csv' >> education.txt
+  684  grep "Entertainment" 'Global YouTube Statistics.csv' >> entertainment.txt
+  685  nano sports.txt
+  686  sort -t ',' -k3,3nr "sports.txt" >> sportsout.txt
+  687  nano sportsout.txt
+  688  sort -t ',' -k3,3nr "education.txt" >> educationout.txt
+  689  nano educationout.txt
+  690  sort -t ',' -k3,3nr "entertainment.txt" >> entertainmentout.txt
+  691  nano entertainmentout.txt
+  692  head -n 1 "sportsout.txt" >> task2.txt
+  693  nano educationout.txt
+  694  head -n 1 "educationout.txt >> task2.txt
+  695  q
+  696  clear
+  697  head -n 1 "educationout.txt >> task2.txt
+  698  q
+  699  clear
+  700  ls
+  701  nano task2.txt
+  702  head -n 1 "educationout.txt" >> task2.txt
+  703  head -n 1 "entertainmentout.txt" >> task2.txt
+  704  nano task2.txt
+  705  head -n 3 "task1.txt" >> ws3.txt
+  706  nano ws3.txt
+  707  head -n 3 "task2.txt" >> ws3.txt
+  708  history
+  709  clear
+  710  nano ws3.txt
+  711  nano 'Global YouTube Statistics.csv'
+  712  nano task1.txt
+  713  nano task2.txt
+  714  vi ws3.txt
+  715  nano ws3.txt
+  716  history > cmds.log
+  717  git status
+  718  git add cmds.log
+  719  git add ws3.txt
+  720  git commit cmds.log
+  721  git commit ws3.txt
+  722  git status
+  723  git push origin master
+  724  git pull origin master
+  725  git init
+  726  git add ws3.txt
+  727  git add cmds.log
+  728  git status
+  729  git commit cmds.log
+  730  git commit ws3.txt
+  731  git push origin master
+  732  git commit cmds.log -m "WS3 initial commit"
+  733  git remote add origin git@github.com:Ssheran/CS131work.git
+  734  git status
+  735  git add ws3.txt
+  736  git add cmds.log
+  737  git commit ws3.txt -m "ws3 initial commit"
+  738  git push origin master
+  739  git pull origin master
+  740  git pull origin master --allow-unrelated-histories
+  741  git status
+  742  git push origin master
+  743  vi cmds.log
+------------------------------------------------
+  744  man free
+  745  ls
+  746  cd CS131
+  747  ls
+  748  mkdir Assignment1
+  749  cd Assignment1
+  750  echo $SHELL
+  751  echo $HOME
+  752  id
+  753  uid=1149(shervanf23) gid=1149(shervanf23) groups=1149(shervanf23),77(S77)
+  754  ls
+  755  cd
+  756  cd CS131
+  757  ls
+  758  cd Assignment1
+  759  ls
+  760  mkdir myDir
+  761  chmod u-w myDir
+  762  cd myDir
+  763  ls
+  764  ls -l
+  765  touch a.txt
+  766  cd Assignment1
+  767  cd
+  768  cd CS131
+  769  cd Assignment1
+  770  cd myDir
+  771  cd
+  772  cd /CS131/Assignmen1t
+  773  cd /CS131/Assignment1/
+  774  cd /CS131/Assignment1
+  775  cd CS131
+  776  cd Assignment1
+  777  cd myDir
+  778  ls
+  779  touch a.txt
+  780  cat a.txt
+  781  > a.txdt
+  782  cd -
+  783  cd myDir
+  784  mkdir myDir2
+  785  cd -
+  786  mkdir myDir2
+  787  mkdir myDir3
+  788  ls
+  789  cd myDir2
+  790  touch myFile.txt
+  791  mv myFile.txt ../myDir3/
+  792  ls
+  793  cd -
+  794  cd myDir3
+  795  ls
+  796  cd -
+  797  free -m
+  798  cat /etc/os-release
+  799  ls -l /etc/os-release
+  800  history > cmds.log
+------------------------------------------------------------------------------------
