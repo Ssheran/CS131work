@@ -1,0 +1,52 @@
+Shervan Shahparnia - Assignment 1
+--------------------------------------------------------------------------------------------------------------------------------
+For easier navigation, my cmds.log files commands for this assigment begin at number 744 and have been section off accordingly
+--------------------------------------------------------------------------------------------------------------------------------
+
+1.	mkdir Assignment1
+	cd Assignment1
+
+2.	echo $SHELL
+out:	/bin/bash
+
+2.	echo $HOME
+out:	/mnt/scratch/FA23_CS131_Ashish/shervanf23
+
+3.	command used -> id
+out:	uid=1149(shervanf23) gid=1149(shervanf23) groups=1149(shervanf23),77(S77)
+
+4.	mkdir myDir
+	chmod u-w myDir
+	
+	No permission to cd. ls and ls-l do not yield any result, but we won't be able to see any files anyway because the user's write permissions
+	have been removed, which means they can't create any files to view with ls or ls-l anyway.
+
+5.	from within Assignment1 directory used:
+	mkdir myDir2
+	mkdir myDir3
+
+6.	cd myDir2
+	touch myFile.txt
+	mv myFile.txt ../myDir3/
+
+6.	command used -> free -m
+	output was as follows:
+	
+	
+                      total        used        free      shared  buff/cache   available
+	Mem:          71367       12131        6061        1142       53173       55898
+	Swap:          4119        1050        3069
+	
+	As you can see the total memory in mebibytes is 71,367
+
+9.	cat /etc/os-release
+	
+	OS version - Red Hat Enterprise Linux version 8.6 (Ootpa)
+	the file under /etc/ containing all of this info was os-release hence the command
+
+10.	ls -l /etc/os-release
+	output: 
+	
+	lrwxrwxrwx. 1 root root 22 Apr  6  2022 /etc/os-release -> ..//usr/lib/os-release
+
+	this file output indicates that all users have read, write, and execute permissions for /etc/os-release
