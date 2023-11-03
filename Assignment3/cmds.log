@@ -1,0 +1,100 @@
+Cmds.log Assignment3
+  945  ls
+  946  cd CS131
+  947  mkdir Assignment3
+  948  touch Assignment3.txt
+  949  ls
+  950  rm Assignment3.txt
+  951  cd Assignment3
+  952  ls
+  953  touch Assignment3.txt
+  954  ls
+  955  nano Assignment3.txt
+  956  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awkdata/last.fake
+  957  wget https://github.com/khanchandaniashish/CS131/blob/main/awkdata/passwd.fake
+  958  wget https://github.com/khanchandaniashish/CS131/blob/main/awkdata/ps.fake
+  959  ls
+  960  wc -l last.fake
+  961  grep "f23" last.fake > lastf23.fake
+  962  ls
+  963  cat last.fake
+  964  wc -l lastf23.fake
+  965  cat last23.fake
+  966  ls
+  967  cat last.fake
+  968  cat lastf23.fake
+  969  nano Assignment3.txt
+  970  grep "Sun" lastf23.fake > test.txt
+  971  ls
+  972  cat text.txt
+  973  cat test.txt
+  974  rm test.txt
+  975  grep "Sun" lastf23.fake | awk 'BEGIN {print "The list of people who worked on Sunday are:"} !seen[$1]++ {name$
+  976  man awk
+  977  grep "Sun" lastf23.fake | awk 'BEGIN {print "The list of people who worked on Sunday are:"} !seen[$1]++ {name$
+  978  nano Assignment3.txt
+  979  grep "Sun" lastf23.fake | awk 'BEGIN {print "The list of people who worked on Sunday are:"} !seen[$1]++ {name$
+  980  nano Assignment3.txt
+  981  grep "Sun" lastf23.fake | awk 'BEGIN {print "The list of people who worked on Sunday are:"} !seen[$1]++ {name$
+  982  The list of people who worked on Sunday are:
+  983  jewonf23
+  984  saniaf23
+  985  tienf23
+  986  Kudos to these people for putting in the work
+  987  nano Assignment3.txt
+  988  grep "Sun" lastf23.fake | awk 'BEGIN {print "The list of people who worked on Sunday are:"} !seen[$1]++ {name$
+  989  grep "Sun" lastf23.fake | awk 'BEGIN {print "The list of people who worked on Sunday are:"} !seen[$1]++ {name$
+  990  nano Assignment3.txt
+  991  awk '$7 >= "23:00" || $7 <= "04:00"' lastf23.fake | awk 'BEGIN {print "Night Owls List:"} !seen[$1]++ {names[$
+  992  nano Assignment3.txt
+  993  logout
+  994  ls
+  995  cd CS131
+  996  ls
+  997  cd Assignment3
+  998  ls
+  999  nano Assignment3.txt
+ 1000   awk '$7 >= "05:00" && $7 <= "09:00"' lastf23.fake | awk 'BEGIN {print "Early Birds List:"} !seen[$1]++ {name$
+ 1001  nano Assignment3.txt
+ 1002  awk '/^t/ {print $1} lastf23.fake
+ 1003  awk '/^t/ {print $1}' lastf23.fake
+ 1004  nano last.fake
+ 1005  awk '/^t/ {print $1}' lastf23.fake
+ 1006  nano Assignment3.txt
+ 1007  awk '/^t/ {print $1}' lastf23.fake
+ 1008  nano Assignment3.txt
+ 1009  awk '/^t/ {print $1}' lastf23.fake | sort | uniq
+ 1010  nano Assignment3.txt
+ 1011  awk '/^t/ {print $1}' lastf23.fake | sort | uniq
+ 1012  nano Assignment3.txt
+ 1013  awk -F: '/^A/ && $3 % 2 == 0 {print $1}' passwd.fake
+ 1014  nano passwd.fake
+ 1015  cat passwd.fake
+ 1016  awk -F: '$1 ~ /^a.*f23$/' passwd.fake
+ 1017  awk '$1 ~ /^a.*f23$/' passwd.fake
+ 1018  awk -F: '/^a/ && $3 % 2 == 0 {print $1}' passwd.fake
+ 1019  awk  '/^a/ && $3 % 2 == 0 {print $1}' passwd.fake
+ 1020  awk -F '/^a/ && $3 % 2 == 0 {print $1}' passwd.fake
+ 1021  awk -F: '/^a/ && $3 % 2 == 0 {print $1}' passwd.fake
+ 1022  awk -F: '$1 ~ /^a.*f23$/ && $3 % 2 == 0' passwd.fake
+ 1023  ls
+ 1024  awk -F: '$1 ~ /^a/ && $3 % 2 == 0' passwd.fake
+ 1025  awk -F: '$1 ~ /^a.*f23$/ && $3 % 2 == 0' passwd.fake
+ 1026  awk -F: '$1 ~ /^a/ && $3 % 2 == 0' passwd.fake
+ 1027  awk -F':' '$1 ~ /^a/ && $3 % 2 == 0' passwd.fake
+ 1028  awk 'BEGIN { FS = ":" } ($1 ~ /^a.*$/) && ($3 % 2 == 0) { print $1 }' "$1"
+ 1029  awk 'BEGIN { FS = ":" } ($1 ~ /^a.*$/) && ($3 % 2 == 0) { print $1 }' "$1" psaswd.fake
+ 1030  awk 'BEGIN { FS = ":" } ($1 ~ /^a.*$/) && ($3 % 2 == 0) { print $1 }' passwd.fake
+ 1031  awk 'BEGIN { FS = ":" } ($1 ~ /^a.*$/) && ($3 % 2 == 0) { print $1 }' "$1"  passwd.fake
+ 1032  awk 'BEGIN { FS = ":" } ($1 ~ /^a.*$/) && ($3 % 2 == 0) { print $1 }' passwd.fake
+ 1033  ls
+ 1034  rm passwd.fake
+ 1035  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awkdata/passwd.fake
+ 1036  awk -F':' '$1 ~ /^a/ && $3 % 2 == 0' passwd.fake
+ 1037  awk -F: '$1 ~ /^a/ && $3 % 2 == 0 {print $1}' passwd.fake
+ 1038  nano Assignment3.txt
+ 1039  cat ps.fake
+ 1040  ls
+ 1041  sed 's/[a-zA-Z0-9 ]//g' passwd.fake | sort -u
+ 1042  nano Assignment3.txt
+ 1043  history > cmds.log
