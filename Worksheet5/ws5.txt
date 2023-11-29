@@ -1,0 +1,7 @@
+Results of For Loop script
+--------------------------
+Music: 73 entries
+Entertainment: 68 entries
+Gaming: 26 entries
+Comedy: 22 entries
+

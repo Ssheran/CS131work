@@ -1,0 +1,79 @@
+START OF CMDS USED IN ASSIGNMENT2
+  932  ls
+  933  git pull origin master
+  934  ls
+  935  cd CS131
+  936  ls
+  937  mkdir Assignment2
+  938  ls
+  939  cd Assignment2
+  940  touch Assignment2.txt
+  941  ls
+  942  find /etc -type f > one.txt 2> two.txt
+  943  ls
+  944  cat one.txt
+  945  nano one .txt
+  946  cat two.txt
+  947  nano Assignment2.txt
+  948  cat one.txt
+  949  nano Assignment2.txt
+  950  cat two.txt
+  951  find: ‘/etc/pki/rsyslog’: Permission denied
+  952  find: ‘/etc/lvm/archive’: Permission denied
+  953  find: ‘/etc/lvm/backup’: Permission denied
+  954  find: ‘/etc/lvm/cache’: Permission denied
+  955  find: ‘/etc/sssd’: Permission denied
+  956  find: ‘/etc/polkit-1/rules.d’: Permission denied
+  957  find: ‘/etc/polkit-1/localauthority’: Permission denied
+  958  find: ‘/etc/grub.d’: Permission denied
+  959  find: ‘/etc/nftables’: Permission denied
+  960  find: ‘/etc/audit’: Permission denied
+  961  find: ‘/etc/sudoers.d’: Permission denied
+  962  find: ‘/etc/firewalld’: Permission denied
+  963  nano Assignment2.txt
+  964  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  965  ls
+  966  cut -d ',' -f 20,21 'Global YouTube Statistics.csv' | tail -n +2 | sort -t ',' -k 2,2 -k 1,1 | uniq -c | sort -nr | head -3
+  967  nano Assignment2.txt15 2006,Mar
+  968  nano Assignment2.txt
+  969  nano 'Global YouTube Statistics.csv'
+  970  nano Assignment2.txt
+  971  cut -d ',' -f 20,21 'Global YouTube Statistics.csv' | tail -n +2 | sort -t ',' -k 2,2 -k 1,1 | uniq -c | sort -nr | head -3
+  972  cut -d ',' -f 20,21 'Global YouTube Statistics.csv' | tail -n +2 | sort -t ',' -k 1,1 -k 2,2 | uniq -c | sort -nr | head -3
+  973  15 2006,Mar
+  974       13 2014,Jul
+  975       12 2014,Aug
+  976  cut -d ',' -f 20,21 'Global YouTube Statistics.csv' | tail -n +2 | sort -t ',' -k 1,1 -k 2,2 | uniq -c | sort -nr | head -3 | awk '{print $2, $1}'
+  977  nano Assignment2.txt
+  978  3. Write the command you would use to find all the processes owned by you. Paste the output of the same. 
+  979  ps -u shervanf23
+  980  nano Assignment2.txt
+  981  ps aux | grep "systemd"
+  982  nano Assignment2.txt
+  983  man ps
+  984  nano Assignment2.txt
+  985  man aux
+  986  man ps 
+  987  nano Assignment2.txt
+  988  ps aux
+  989  ls
+  990  cd
+  991  cd CS131
+  992  cd Assignment2
+  993  ls
+  994  cat one.txt
+  995  cat two.txt
+  996   nano Assignment2.txt
+  997  ls
+  998  cd CS131
+  999  cd Assignment2
+ 1000  cd Assignment2.txt
+ 1001  ls
+ 1002  cdx
+ 1003  cd
+ 1004  vi file.txt
+ 1005  cd Assignment2
+ 1006  cd CS131
+ 1007  cd Assignment2
+ 1008  nano Assignment2.txt
+ 1009  history > cmds.log

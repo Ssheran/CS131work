@@ -1,0 +1,78 @@
+Assignment2 Answers:
+
+1. find /etc -type f > one.txt 2> two.txt
+
+	a. this command searches files in the /etc directory and the directories within
+	   the /etc directory. It finds and saves all files hence -type f and saves 
+	   the stdout which is the file paths to one.txt and the stderror to two.txt hence the 2>
+
+	b. cat one.txt lists all of the files in the /etc directory 
+
+	   cat two.txt shows errors resulting from the use of the 'find' command.
+	   these errors were caused by my user account lacking permissions to view the files and directories 
+	   (specifically the ones that said "permission denied").
+
+2.   
+	As per the Dataset, Top 3 [Month, Year] with the most number of YouTube channels created were :
+	1. March,2006 with 15 channels
+	2. July,2014 with 13 channels 
+	3. August,2014 with 12 channels
+	
+	The command used to find this was:
+		cut -d ',' -f 20,21 'Global YouTube Statistics.csv' | tail -n +2 | sort -t ',' -k 2,2 -k 1,1 | uniq -c | sort -nr | head -3
+		*The cut -d ',' 20,21 'Global YouTube Statistics.csv' command pulls the 20th and 21st fields from the dataset file and the -d ',' specifies the columns being comma separated
+		*tail -n +2 skips the first line in the file that's the format header
+		*sort -t ',' -k 2,2 -k 1,1 sorts the data in the order year, month
+		*uniq -c counts frequency of each m/y combination
+		*sort -nr sorts in reverse order (this puts the m/y that appears the most frequently first)
+		*head -3 only gives the top 3 m/y combinations
+
+3. The command that I would use to find all the processes owned by me [shervanf23] -> ps -u shervanf23
+
+	OUTPUT:
+ 
+	PID TTY          TIME CMD
+	3681568 ?        00:00:01 systemd
+	3681570 ?        00:00:00 (sd-pam)
+	3681576 ?        00:00:00 sshd
+	3681582 pts/96   00:00:00 bash
+	3717442 pts/96   00:00:00 ps
+		
+4.	a) used vi file.txt
+
+	b)     PID TTY          TIME CMD
+	   3967976 ?        00:00:00 systemd
+	   3967977 ?        00:00:00 (sd-pam)
+	   3967985 ?        00:00:00 sshd
+	   3967988 pts/114  00:00:00 bash
+	   3970054 ?        00:00:00 sshd
+	   3970059 pts/113  00:00:00 bash
+	   3970320 pts/114  00:00:00 vim
+	   3970593 pts/113  00:00:00 ps
+
+	There were a few other processes that showed up compared to the first usage of the command with just one terminal instance open.
+	Each listed process also shows which terminal it's being used in (pts = pseudo-terminal, the number after is the number of the pts).
+	The PID for the vim process is as seen above, 3970320
+
+	c) used :q! to exit vi in terminal 1
+
+	d)    PID TTY          TIME CMD
+	   3967976 ?        00:00:00 systemd
+	   3967977 ?        00:00:00 (sd-pam)
+	   3967985 ?        00:00:00 sshd
+	   3967988 pts/114  00:00:00 bash
+	   3970054 ?        00:00:00 sshd
+	   3970059 pts/113  00:00:00 bash
+	   3972794 pts/113  00:00:00 ps
+
+	The vim process no longer shows up in the list because it was closed in the first terminal. After closing the vim, the ps
+	command is running but as you can see the PID 3972794 differs from the first run of the command, which indicates that the first ps
+	instance has ended and the command has been run again. 
+
+5.	The init process in Linux is th;e initialization process. It's the first process started by the kernel and has PID of 1. 
+	The command that I used to find the pid was for the "systemd" (init) process was -> ps aux | grep "systemd"
+
+6.	ps aux 
+	
+	ps displays information about active processes. It creates a list of the processes with information such as user of the process owner, the PID (process id), TTY, the cpu time of the process, etc.
+	More specifically, the 'a' refers to all processes on the system, 'u' refers to the information of those processes, and x makes sure that all foreground and background processes are included. 
